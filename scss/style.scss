@@ -1,0 +1,23 @@
+.text-box:first-child {
+	h3 {
+		color: pink;
+	}
+}
+#greycol {
+	color: gray;
+}
+.text-box {
+	div {
+		p {
+			color: red;
+		}
+	}
+}
+.text-box:nth-child(2n + 3) {
+	p {
+		color: green;
+	}
+}
+.text-box .yellow {
+	color: yellow;
+}
